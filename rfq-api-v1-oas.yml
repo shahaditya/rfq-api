@@ -15,7 +15,7 @@ paths:
       tags:
         - Quote
       description: Request a Quote
-      operationId: getQuote
+      operationid: getQuote
       requestBody:
         content:
           application/json:
