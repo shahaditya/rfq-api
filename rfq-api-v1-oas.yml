@@ -10,7 +10,7 @@ tags:
 paths:
   /rfqs:
     post:
-      operationid: getQuote
+      operationId: getQuote
       tags:
         - Quote
       requestBody:
