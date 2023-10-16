@@ -6,4 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Building..."
+      - uses: actions/setup-node@v3
+      - run: npm install -g @stoplight/spectral-cli
+      - run: spectral lint rfq-api-v1.oas.yml
