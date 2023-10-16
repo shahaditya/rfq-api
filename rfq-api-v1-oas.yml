@@ -49,5 +49,4 @@ components:
         mode:
           type: string
           pattern: "[A-Z]{3}"
-          maxLength: 3
       
