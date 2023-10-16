@@ -3,8 +3,6 @@ info:
   title: Quotation API
   description: Get a quote online
   version: '1.0'
-  contact:
-    email: bayer@predic8.de
 servers:
   - url: https://api.server.test/v1
 tags:
@@ -15,7 +13,6 @@ paths:
       operationid: getQuote
       tags:
         - Quote
-      description: Request a Quote
       requestBody:
         content:
           application/json:
@@ -24,7 +21,6 @@ paths:
       responses:
         '200':
           description: OK
-
 components:
   schemas:
     Quotation:
