@@ -12,10 +12,10 @@ tags:
 paths:
   /rfqs:
     post:
+      operationid: getQuote
       tags:
         - Quote
       description: Request a Quote
-      operationid: getQuote
       requestBody:
         content:
           application/json:
